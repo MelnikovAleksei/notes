@@ -1,1 +1,1 @@
-# symple notes app
+# Symple Note Taking App
