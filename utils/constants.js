@@ -1,3 +1,3 @@
 const addNoteButton = document.querySelector('.notes__add-button');
-
-export {addNoteButton}
+const noteListContainer = document.querySelector('.notes__container');
+export { addNoteButton, noteListContainer }

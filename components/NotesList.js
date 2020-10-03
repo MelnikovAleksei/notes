@@ -1,9 +1,9 @@
 export class NotesList {
-  constructor(notesListSelector) {
-    this._notesListSelector = notesListSelector;
+  constructor(notesListContainer) {
+    this._notesListContainer = notesListContainer;
   }
 
   addNote (noteElement) {
-    this._notesListSelector.append(noteElement)
+    this._notesListContainer.prepend(noteElement)
   }
 }

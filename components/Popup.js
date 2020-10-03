@@ -20,6 +20,7 @@ export class PopupWithAddForm {
   _handleSubmit (evt) {
     evt.preventDefault();
     this._submit(this._getInputValue())
+    this._formElement.reset();
     this._close();
   }
 
