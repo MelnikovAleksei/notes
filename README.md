@@ -21,7 +21,6 @@
 
 ```
 git clone https://github.com/MelnikovAleksei/notes.git
-
 ```
 
 ## Будущая доработка проекта будет включать в себя:
