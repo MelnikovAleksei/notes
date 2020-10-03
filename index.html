@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+</head>
+<body class="root">
+  <header class="header">
+    <h1 class="header__headline">Symple Note Taking App</h1>
+  </header>
+  <main>
+    <section class="notes">
+      <button class="notes__add-button">Add Note</button>
+      <ul class="notes__container"></ul>
+    </section>
+  </main>
+  <footer>
+    <a href="https://github.com/MelnikovAleksei">GitHub</a>
+  </footer>
+  <div class="popup popup-add-note">
+    <form class="form" name="add">
+      <label class="form__label" for="text"></label>
+      <input class="form__input" class="input" type="text" name="text" id="text">
+      <button class="form__submit-button" type="submit"></button>
+    </form>
+  </div>
+  <template id="note">
+    <li class="notes__item">
+      <p class="notes__text"></p>
+      <button class="notes__delete-button">Delete</button>
+    </li>
+  </template>
+</body>
+</html>
