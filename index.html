@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notes</title>
+    <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="root">
   <header class="header">
@@ -20,11 +21,14 @@
     <a href="https://github.com/MelnikovAleksei">GitHub</a>
   </footer>
   <div class="popup popup-add-note">
-    <form class="form" name="add">
-      <label class="form__label" for="text"></label>
-      <input class="form__input" class="input" type="text" name="text" id="text">
-      <button class="form__submit-button" type="submit">+</button>
-    </form>
+    <div class="popup__container">
+      <form class="form" name="add">
+        <label class="form__label" for="text"></label>
+        <input class="form__input" class="input" type="text" name="text" id="text">
+        <button class="form__submit-button" type="submit">Add</button>
+        <button class="form__reset-button" type="reset">Reset</button>
+      </form>
+    </div>
   </div>
   <template id="note">
     <li class="notes__item">
