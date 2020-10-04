@@ -1,6 +1,7 @@
 export class Note {
-  constructor(data) {
+  constructor(data, { deleteNoteFromDB }) {
     this._data = data;
+    this._deleteNoteFromDB = deleteNoteFromDB;
   }
 
   _getNoteElement () {
@@ -10,15 +11,16 @@ export class Note {
       .cloneNode(true);
   }
 
-  _deleteNote () {
+  _deleteNote (evt) {
+    this._deleteNoteFromDB(evt);
     this._noteElement.remove();
     this._noteElement = null;
   }
 
   _setEventListeners () {
     this._deleteButton = this._noteElement.querySelector('.notes__delete-button');
-    this._deleteButton.addEventListener('click', () => {
-      this._deleteNote();
+    this._deleteButton.addEventListener('click', (evt) => {
+      this._deleteNote(evt);
     });
   }
 
