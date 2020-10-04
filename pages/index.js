@@ -1,4 +1,4 @@
-import { PopupWithAddForm } from '../components/Popup.js';
+import { PopupWithAddForm } from '../components/PopupWithAddForm.js';
 import { NotesList } from '../components/NotesList.js';
 import { Note } from '../components/Note.js';
 
