@@ -6,7 +6,7 @@
 
 "Symple Note Taking App" - это простое веб-приложение для создания заметок и хранения их на стороне клиента посредством IndexedDB API. В работе применены расширенные возможности HTML и CSS, JavaScript (ООП в интерфейсах, работа с DOM и IndexedDB API), git. 
 
-В этом приложении использовалась коллекция стилей [CSS Water.css(открывается в новой вкладке)](https://github.com/kognise/water.css). 
+В этом приложении использовалась коллекция стилей [CSS Water.css (ссылка на репозиторий)](https://github.com/kognise/water.css). 
 
 [Проектная работа на GitHub Pages](https://melnikovaleksei.github.io/notes/)
 
