@@ -4,7 +4,9 @@
 
 ## Description:
 
-"Symple Note Taking App" - it is a simple web application for taking notes and storing them on the client side using the IndexedDB API. The work uses advanced features of HTML and CSS, JavaScript (OOP in interfaces, working with DOM and IndexedDB API), git.
+"Symple Note Taking App" - it is a simple web application for taking notes and storing them on the client side using the IndexedDB API. The work uses advanced features of HTML and CSS, JavaScript (OOP in interfaces, working with DOM and IndexedDB API), git. 
+
+This application used the [Water.css CSS style collection (repository link)](https://github.com/kognise/water.css). 
 
 [Project work on GitHub Pages](https://melnikovaleksei.github.io/notes/)
 
