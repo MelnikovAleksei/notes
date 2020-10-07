@@ -1,14 +1,17 @@
-# Symple Note Taking App
+# "Symple Note Taking App" 
+
+*Read this in other languages:* [EN](https://github.com/MelnikovAleksei/notes/blob/master/README.EN.md) 
 
 ## Описание:
 
-"Symple Note Taking App" - это простое веб-приложение для создания заметок и хранения их на стороне клиента посредством IndexedDB API. В работе применены расширенные возможности HTML и CSS, JavaScript (ООП в интерфейсах, работа с DOM и IndexedDB API), проверка данных форм, git.
+"Symple Note Taking App" - это простое веб-приложение для создания заметок и хранения их на стороне клиента посредством IndexedDB API. В работе применены расширенные возможности HTML и CSS, JavaScript (ООП в интерфейсах, работа с DOM и IndexedDB API), git.
 
 [Проектная работа на GitHub Pages](https://melnikovaleksei.github.io/notes/)
 
 ## Функционал:
 
-* Добавление и удаление заметок
+* Добавление и удаление заметок 
+* Хранение заметок на стороне клиента 
 
 ## Технологии:
 
